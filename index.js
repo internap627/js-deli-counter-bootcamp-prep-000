@@ -20,7 +20,7 @@ function currentLine(katzDeliLine){
     str = str + `${i}.${katzDeliLine[i]},`;
   }
   
-  str[str.length-1] = "";
+  
   return str;
   
   
