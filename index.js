@@ -11,6 +11,8 @@ function nowServing(katzDeliLine){
   return `Currently serving ${first}.`;
 }
 
-function currentLine(){
-  
+function currentLine(katzDeliLine){
+  if(katzDeliLine.length == 0){
+    return "There is nobody waiting to be served!";
+  }
 }
