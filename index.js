@@ -20,7 +20,9 @@ function currentLine(katzDeliLine){
     if(i == katzDeliLine.length){
       str = str + `${i}. ${katzDeliLine[i-1]}`;
     }
+    else{
     str = str + `${i}. ${katzDeliLine[i-1]}, `;
+    }
   }
   
   
